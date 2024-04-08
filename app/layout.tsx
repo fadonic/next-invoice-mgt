@@ -8,7 +8,9 @@ export const metadata: Metadata = {
     default: 'Ims Dashboard',
   },
   description: 'A IMS Dashboard built with App Router.',
-  //metadataBase: new URL('https://next-learn-dashboard.vercel.sh'),
+  metadataBase: new URL(
+    'https://next-invoice-1zn6vy7b2-fadonics-projects.vercel.app/',
+  ),
 };
 
 export default function RootLayout({

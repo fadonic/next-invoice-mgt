@@ -17,10 +17,8 @@ export default function Page() {
             className={`${lusitana.className} text-xl text-gray-800 md:text-3xl md:leading-normal`}
           >
             <strong>Welcome to Ims.</strong> admin{' '}
-            <a href="https://nextjs.org/learn/" className="text-blue-500">
-              Dashboard
-            </a>
-            , Click on the login button to continue.
+            <span className="text-blue-500">Dashboard</span>, Click on the login
+            button to continue.
           </p>
           <Link
             href="/login"
